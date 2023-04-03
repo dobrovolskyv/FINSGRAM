@@ -562,7 +562,10 @@ body {
   margin-top: 100px;
   padding: 0 54px;
 }
-
+.sponsors .container{
+  position: relative;
+  z-index: 10;
+}
 .sponsors__title-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -939,6 +942,9 @@ body {
 
   .about__right {
     margin-top: 40px;
+  }
+  .sponsors__title-wrapper h2 {
+    letter-spacing: 0px;
   }
 }
 
